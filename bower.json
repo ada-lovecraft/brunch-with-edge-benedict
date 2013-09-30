@@ -1,0 +1,18 @@
+{
+  "name": "brunch-with-edge-benedict",
+  "repo": "codevinsky/brunch-with-edge-benedict",
+  "version": "1.0",
+  "main": "_public/js/app.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": "1.2.0-rc.2",
+    "angular-route": "1.2.0-rc.2",
+    "jquery": "~2.0.3",
+    "bootstrap": "~3.0.0",
+    "sling-ui": "0.1.2"
+  }
+}
