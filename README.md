@@ -1,6 +1,6 @@
-# Brunch app
+# Brunch with Edge Benedict
 
-This is HTML5 application, built with [Brunch](http://brunch.io).
+Brunch skeleton with AngularJS 1.2.0-rc-2, jQuery 2.0.3, Bootstrap 3.0, and Sling UI 0.1.2
 
 ## Getting started
 * Install [Brunch](http://brunch.io): `npm install -g brunch`.
@@ -10,7 +10,7 @@ This is HTML5 application, built with [Brunch](http://brunch.io).
 `brunch watch --server`. This will also launch HTTP server.
 * Or build the minified project with `brunch build --optimize`.
 
-Open the `public/` dir to see the result.
+Open the `_public/` dir to see the result.
 
 * Write your code in `app` dir.
 * Put static files that should be copied (index.html etc) to `app/assets`.
