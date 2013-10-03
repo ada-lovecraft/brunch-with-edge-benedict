@@ -2,7 +2,7 @@
   "author": "Jeremy Dowell",
   "name": "brunch-with-edge-benedict",
   "description": "The newest (read: UNSTABLE) libraries for AngularJS, Bootstrap, and Sling-UI. Updated weekly (if needed)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://codevinsky.github.io/brunch-with-edge-benedict",
   "repository": {
     "type": "git",
