@@ -9,10 +9,10 @@
     "components"
   ],
   "dependencies": {
-    "angular": "1.2.0-rc.2",
-    "angular-route": "1.2.0-rc.2",
+    "angular": "1.2.0-rc.3",
+    "angular-route": "1.2.0-rc.3",
     "jquery": "~2.0.3",
     "bootstrap": "~3.0.0",
-    "sling-ui": "0.2.0"
+    "sling-ui": "0.2.3"
   }
 }
