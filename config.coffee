@@ -31,6 +31,10 @@ exports.config =
     jade_angular:
       modules_folder: 'partials'
       locals: {}
-
+  server: 
+    path: 'server/server.coffee'
+    port: 3333
+    base: '/'
+    run: yes
   # Enable or disable minifying of result js / css files.
   # minify: true

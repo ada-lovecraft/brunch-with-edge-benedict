@@ -9,10 +9,14 @@
     "components"
   ],
   "dependencies": {
-    "angular": "1.2.0-rc.3",
-    "angular-route": "1.2.0-rc.3",
+    "console-polyfill": "~0.1.0",
     "jquery": "~2.0.3",
-    "bootstrap": "~3.0.0",
-    "sling-ui": "0.2.3"
+    "bootstrap": "~3.0.2",
+    "angular": "1.2.0",
+    "angular-route": "1.2.0",
+    "sling-ui": "0.3.1.2"
+  },
+  "resolutions": {
+    "angular": "1.2.0"
   }
 }

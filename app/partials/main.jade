@@ -1,2 +1,18 @@
 div(ng-controller="MainController")
-	sling-table(table-data="main.data", table-config="main.tableConfig", table-search="true", table-pager="true", items-per-page="10")
+	div(sling-table, sling-model="data", search="true", paged="true", items-per-page="10")
+		table.table.table-hover
+			thead
+				tr
+					th Actions
+					th(sling-sort, sort-field="date") Date
+					th(sling-sort, sort-field="firstName") First Name
+					th(sling-sort, sort-field="lastName") Last Name
+					th(sling-sort, sort-field="city") City
+			tbody
+				tr.sling-interactable(ng-repeat="row in slingData", ng-click="showDetail(row)")
+					td.sling-interactable(ng-click="remove(row)")
+						.glyphicon.glyphicon-remove-circle
+					td {{row.date | date:'shortDate'}}
+					td {{row.firstName}}
+					td {{row.lastName}}
+					td {{row.city}}
