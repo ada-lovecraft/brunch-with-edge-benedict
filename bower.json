@@ -1,7 +1,7 @@
 {
   "name": "brunch-with-edge-benedict",
   "repo": "codevinsky/brunch-with-edge-benedict",
-  "version": "1.1",
+  "version": "1.2",
   "main": "_public/js/app.js",
   "ignore": [
     "**/.*",
