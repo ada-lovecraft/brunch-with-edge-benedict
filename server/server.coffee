@@ -27,7 +27,7 @@ app.use express.errorHandler()  if "development" is app.get("env")
 app.get '/api/people', api.people
 
 #serve index for all other routes
-app.get '*', (req,res) -> res.sendFile "#{assetsPath}/index.html"
+app.get '*', (req,res) -> res.sendfile "#{assetsPath}/index.html"
 
 module.exports.startServer = (port, path, cb) ->
 	app.set 'port', port
